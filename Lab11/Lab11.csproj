@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\ConsoleIOLib\ConsoleIOLib\ConsoleIOLib.csproj" />
     <ProjectReference Include="..\..\..\ConsoleDialogLib\ConsoleDialogLib\ConsoleDialogLib.csproj" />
+    <ProjectReference Include="..\..\Lab10\Lab10Lib\Lab10Lib.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

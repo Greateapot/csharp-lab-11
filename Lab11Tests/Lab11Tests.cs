@@ -1,9 +1,9 @@
 namespace Lab11Tests;
 
-public class UnitTest1
+public class Lab11Test
 {
     [Fact]
-    public void Test1()
+    public void Test()
     {
 
     }
