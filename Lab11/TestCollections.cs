@@ -61,7 +61,7 @@ namespace Lab11
 
         public bool Add(Student student)
         {
-            if (students.Contains(student))
+            if (studentsByPerson.ContainsKey(student))
                 return false;
 
             students.Push(student);
@@ -73,7 +73,7 @@ namespace Lab11
 
         public bool Remove(Student student)
         {
-            if (!students.Contains(student))
+            if (!studentsByPerson.ContainsKey(student))
                 return false;
 
             StackRemove(students, student);
